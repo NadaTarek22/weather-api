@@ -1,0 +1,88 @@
+
+
+@media only screen and(min-width: 500px), screen and (max-width: 767px) {
+
+    .num-of-degree{
+        font-size: 3rem;
+        justify-content: center;
+    }
+    .content{
+        text-align: center;
+    }
+    .content span{
+        margin-right: 5px;
+    }
+    .row{
+       flex-wrap: nowrap !important;
+       display: block !important;
+    }
+
+    .footer{
+        margin-top: 95% !important;
+    }
+    .disaplay{
+        display: flex;
+        justify-content: center;
+    }
+    .col-md-offset-1{
+        margin-left:0;
+    }
+    #footer{
+        margin-top: 0 !important;
+    }
+    .navbar-collapse {
+        margin-top: 30px !important;
+    }
+    .navbar-collapse ul li{
+        margin-top: 5px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .num-of-degree{
+        justify-content: center;
+        font-size: 3rem !important;
+    }
+    .content span{
+        margin-right: 5px;
+    }
+    #footer{
+        margin-top: 0 !important;
+    }
+    .navbar-collapse {
+        margin-top: 30px !important;
+    }
+    .navbar-collapse ul li{
+        margin-top: 5px !important;
+    }
+    .row{
+        flex-wrap: nowrap !important;
+        display: block !important;
+        
+     }
+    #row{
+        display: flex !important;
+        flex-wrap: wrap !important;
+     }
+     .col-md-offset-1{
+        margin-left:0;
+    }
+    #disaplay{
+        display: flex;
+        justify-content: center;
+    }
+    .footer{
+        margin-top: 30% !important;
+    }
+    #emailP{
+        padding-left: 15%;
+    }
+    #companyP{
+        padding-left: 5%;
+    }
+    #phoneP{
+        padding-left: 15%;
+
+    }
+
+}

@@ -1,0 +1,365 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+body{
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+a{
+    text-decoration: none;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+/* Start of Nav bar*/
+.mr-10{
+    margin-right: 12px;
+}
+.title1{
+    margin-bottom: 5px;
+    font-size: 1.1428571429em;
+}
+
+.description{
+    font-size: 0.7142857143em;
+    display: block;
+    color: #bfc1c8;
+}
+.container{
+    padding: 50px 0;
+}
+.navbar{
+    --bs-navbar-padding-y: 0;
+    background-color: #1E202B;
+}
+.navbar-nav{
+    --bs-nav-link-hover-color: none; 
+}
+.nav-item{
+    color: white;
+    margin-left: 10px;
+}
+.nav-item a{
+    color: white;
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    font-weight: 400;
+    transition: 0.3s ease;
+}
+.navbar-nav .active, .nav-item a:hover{
+    border-color: #009ad8;
+    color: #009ad8;
+}
+a:hover{
+    color: none;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+/* End of Nav bar*/
+
+
+/* Start of Main Section*/
+.bg-image{
+    height: 100vh;
+    background-image: url('../imgs/banner.png');
+    background-repeat: no-repeat;
+    padding: 70px 0;
+    min-height: 640px;
+}
+input, textarea{
+   font-size: 100%;     
+   font-family: inherit;
+   outline: none;
+   border: none;
+   border-radius: 30px;
+   color: white;
+
+}
+.location-input{
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+}
+.find-btn{
+    right: 5px;
+    bottom: 5px;
+    top: 5px;
+    padding: 0 40px;
+    background: #009ad8;
+}
+.bg-image .container{
+    padding: 0;
+}
+.form{
+    margin-bottom: 70px;    
+}
+.bg-gray1{
+    background-color: #323544;
+}
+.bg-gray2{
+    background-color: #262936;
+}
+.top-left-radius{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.top-right-radius{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.header{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+}
+main .bg-image .row>*{
+    padding-right: 0;
+    padding-left: 0;
+
+}
+.location{
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+.content{
+    text-align: left;
+    padding: 50px 20px 10px;
+}
+.content1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+sup{
+    font-size: 75%;
+    line-height: 0;
+    position: relative; 
+    top: 0.5em; 
+}
+.num-of-degree{
+    font-size: 6rem;
+    margin-right: 30px;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon{
+    margin-bottom: 20px;
+    height: 50px;
+}
+.weather-desc{
+    color: #009ad8;
+    margin: 20px 0;
+}
+.content span{
+    margin-right: 20px;   
+}
+.num-of-degree2{
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+}
+.top{
+    position: relative;
+    top: -0.5em;
+}
+/* End of Main Section*/
+
+
+/* Start of Footer Section*/
+.footer{
+    background: #262936;
+    padding: 50px 0;
+    margin-top: 40px;
+}
+.footer .container{
+    padding: 0;
+}
+.Subscribe-btn{
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+.social-media a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    transition: 0.3s ease;
+    font-size: 1.4285714286em;
+}
+.social-media a:hover{
+    color: #fff;
+    background-color: #009ad8;
+
+}
+.social-media a:focus,
+.social-media a:active{
+    outline: thin dotted;
+    background: #1e202b;
+    color: #009ad8;
+}
+.anchor a:focus{
+    outline: thin dotted;
+}
+.form2{
+    margin-bottom: 30px;
+}
+/* End of Footer Section*/
+
+
+
+
+/*  Start of Contact Section*/
+.home-link{
+    background: #262936;
+    border-radius: 40px;
+    padding: 20px 30px;
+    font-size: 0.9285714286em;
+}
+.home-link a{
+    color: #bfc1c8;
+}
+.home-link a:hover{
+    text-decoration: underline;
+}
+.home-link a:hover i{
+    text-decoration: none;
+}
+.fa-arrow-right{
+    cursor: pointer;
+}
+.contact-sec .container{
+    padding-top: 0%;
+    padding-bottom: 0;
+}
+.contact-details{
+    background: #262936;
+    border-radius: 10px;
+}
+
+.company-location {
+    height: 220px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.contact-sec2{
+    margin-top: 70px ;
+    margin-bottom: 70px ;
+}
+.company-info{
+    padding: 20px;
+}
+.company-info i{
+    color: #009ad8;
+    font-size: 20px;
+}
+.company-info p{
+    color: inherit;
+}
+.company-info a{
+    color: inherit;
+    margin-right: 20px;
+}
+.col-md-offset-1{
+    margin-left: 8.3333333333%;
+}
+.title{
+    font-size: 2.5714285714em;
+    font-weight: 400;
+    color: white;
+    margin: 0 0 20px;
+}
+.contact-form [class*='col']{
+    padding: 0 5px;
+}
+.contact-form input:not([type="submit"]), 
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+    border: 2px solid #393c48;
+    background: transparent;
+}
+.contact-form input:not([type="submit"]):hover,
+.contact-form input:not([type="submit"]):focus,
+.contact-form textarea:hover,
+.contact-form textarea:focus
+{
+    border: 2px solid #009ad8;
+}
+.contact-form textarea {
+    min-height: 150px;
+}
+.contact-form textarea{
+    margin-bottom: 4px;
+
+}
+.contact-form input[type='submit']{
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+.w-15{
+    width: 15%;
+}
+small{
+    font-size: 1.1428571429em
+}
+/* End of Contact Section*/
+
+
+.imgg{
+    position: absolute;
+    left: 0;
+    top: 15%;
+}
+.company-info span{
+    position: relative;
+}
+.company-info span p{
+    padding-left: 7%;
+}
+.company-info .anchor a{
+    position: relative;
+}
+.company-info .anchor a p{
+    padding-left: 20%;
+    margin-bottom: 0;
+}
+.w-30{
+    width: 35%;
+}

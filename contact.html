@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compass Starter by Ariona, Rian</title>
+
+<!--Fontawesome Icons-->
+    <link rel="stylesheet" href="CSS/all.min.css">
+
+<!--CSS Files-->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="media-query/media-query.css">
+
+
+<!--Roboto Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body  data-bs-spy="scroll" data-bs-target="#navID">
+
+  <!--START OF NAV BAR-->
+    <nav class=" navbar navbar-expand-lg w-100 " id="navID">
+        <div class="container">
+          <a class=" d-flex justify-content-center align-items-center text-white" href="#">
+            <img class="mr-10" src="imgs/logo.png" alt="Weather-logo">
+            <div>
+              <h1 class="title1">Company name</h1>
+              <small class="description">tagline goes here</small>
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item ">
+                <a class="homeSec " aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#news">News</a>
+              </li>
+              <li class="nav-item">
+                <a  href="#cameras">Live cameras</a>
+              </li>
+              <li class="nav-item">
+                <a  href="#photos">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="contact active" href="#contact">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+    </nav>
+  <!--END   OF NAV BAR-->
+
+  <!--START OF MAIN SECTION-->
+  <main class="contact-sec">
+
+    <div class="container">
+        <div class="home-link">
+            <a href="index.html">Home
+            </a>
+            <i class="ps-2 fa fa-arrow-right "></i>
+
+            <span class="ps-2 text-white">Contact</span>
+
+        </div>
+
+    </div>
+
+    <div class="container contact-sec2">
+        <div class="row">
+            <div class="col-lg-5 col-md-12 mb-sm-2">
+                <div class="contact-details">
+                    <div class="company-location"></div>
+                    <div class="company-info">
+                        <div>
+                            <span class="d-flex">
+                                <!-- <i class="fa fa-location-dot pe-3"></i>-->
+                                 <img class="imgg" src="imgs/icon-marker.png" alt="location-image">
+                                <p id="companyP">Company Name INC. <br>
+                                    2803 Avenue Street, Los Angeles
+                                </p>
+                            </span>
+
+                            <div class="anchor d-flex ">
+                                <a href="" class="w-30">
+                                  <!--  <i class="fa fa-phone pe-2"></i>-->
+                                  <img class="imgg" src="imgs/icon-phone.png" alt="phone-image">
+                                  <p id="phoneP">+1 800 314 235</p>
+                                </a>
+
+                                <a href="" class="w-30">
+                                   <!-- <i class="fa fa-envelope pe-2"></i>-->
+                                   <img class="imgg" src="imgs/icon-envelope.png" alt="phone-image">
+                                    <p id="emailP">contact@companyname.com</p>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-md-12 mt-sm-5 mt-lg-0 col-md-offset-1 ">
+                <h2 class="title">Contact us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur <br> inventore ducimus, facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic, ipsum sed!</p>
+
+                <form class="contact-form">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <input type="text" placeholder="Your name...">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <input type="text" placeholder="Email Addresss...">
+                        </div>
+
+                        <div class="col-lg-6 col-md-12">
+                            <input type="text" placeholder="Company name...">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <input type="text" placeholder="Website...">
+                        </div>
+
+                        <div class="col-md-12">
+                            <textarea placeholder="Message..."></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="text-end">
+                        <input type="submit" >
+                    </div>
+
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+  </main>
+<!--End OF MAIN SECTION-->
+
+
+  <!--START OF FOOTER SECTION-->
+  <footer >
+    <section id="footer" class="footer ">
+      <div class=" container">
+        <div  class="row ">
+          <div  class="col-lg-8 col-md-12">
+            <form class="position-relative form2">
+              <input type="text" class="  location-input " placeholder="Enter your email to subscribe...">
+              <input class="position-absolute Subscribe-btn" value="Subscribe" type="button">
+            </form>
+          </div>
+
+          <div id="disaplay"  class="col-lg-3 col-md-12   col-md-offset-1  ">
+            <div class="social-media disaplay">
+              <a href="">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-pinterest"></i>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+        <p id="disaplay" class="disaplay mt-sm-3 mt-md-3 mt-lg-0">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+
+      </div>
+    </section>
+  </footer>
+  <!--END   OF FOOTER SECTION-->
+
+
+
+
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/contact.js"></script>
+</body>
+</html>
